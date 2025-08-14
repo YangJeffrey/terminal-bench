@@ -40,7 +40,7 @@ class LiteLLM(BaseLLM):
     def __init__(
         self,
         model_name: str,
-        temperature: float = 0.7,
+        temperature: float = 1.0,
         api_base: str | None = None,
         **kwargs,
     ):
